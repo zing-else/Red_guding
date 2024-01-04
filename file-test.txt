@@ -1,0 +1,27 @@
+返回之前保存的记录：git checkout +序列号
+
+    返回上一个记录：git checkout -
+
+    查看具体操作内容：git log -p
+
+   添加标签（默认在最近，添加tag）：git tag -a 标签名 -m "备注"
+
+   在指定内容后添加标签：git tag -a 标签名 -m "备注"  序列号
+
+   查看标签：git show 标签名
+
+   返回之前的版本：git checkout 标签名
+
+   标记把每一个提交压缩到了一行中：git log --oneline
+
+   每次提交全部显示出来：git log --oneline --all
+
+   建立分支：git branch 分支名
+
+   切换到某分支：git checkout 分支名
+
+   回到默认默认的分支：git checkout master
+
+   图示全部历史记录：git log --graph --all --oneline
+
+   合并分支：git  merge 分支名
